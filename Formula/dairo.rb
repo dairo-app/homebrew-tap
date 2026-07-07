@@ -1,13 +1,13 @@
 class Dairo < Formula
   desc "Official Dairo command-line interface"
   homepage "https://dairo.app"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.4/dairo-aarch64-apple-darwin.tar.gz"
-      sha256 "a04b1ae4cdff9e95be9660a2dd95fb0d521b9fbb5d39074a697c3d7e5649501c"
+      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.5/dairo-aarch64-apple-darwin.tar.gz"
+      sha256 "ca48b9db4154c4b5ea2976b0d0cf591898e2466ea02bce04719a9c84fda2db4f"
 
       def install
         bin.install "dairo" => "dairo"
@@ -15,8 +15,8 @@ class Dairo < Formula
     end
 
     on_intel do
-      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.4/dairo-x86_64-apple-darwin.tar.gz"
-      sha256 "76188c8fb78f6ae4f75ecb25c709d322d4312d1e13970d3bcc69875b3c2269ed"
+      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.5/dairo-x86_64-apple-darwin.tar.gz"
+      sha256 "82693cd373085fef7eaab75d4aca6081cf2d14a91702f9e8a764fcd6287efe93"
 
       def install
         bin.install "dairo" => "dairo"
@@ -26,8 +26,8 @@ class Dairo < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.4/dairo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5c4a0e59a91a9dd0e4aa86230d4dc2a501f09e62a3de8ad24e1eb6d0cd998492"
+      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.5/dairo-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9b60f93531546f1169d5d91dc078f8a76da5db11132322a6596c0b2b14f1b86e"
 
       def install
         bin.install "dairo" => "dairo"
@@ -35,8 +35,8 @@ class Dairo < Formula
     end
 
     on_intel do
-      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.4/dairo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6a937d8512dd55f5b7ed723839ddfb5940bc55f97a26d2e2fc6310103aaa1c6d"
+      url "https://github.com/dairo-app/dairo-cli/releases/download/0.0.5/dairo-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d284c39558cb20a9ad055526469459b08524333e2888a350d8762ce83a613a93"
 
       def install
         bin.install "dairo" => "dairo"
