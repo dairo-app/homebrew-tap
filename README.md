@@ -3,8 +3,9 @@
 Official Homebrew tap for the Dairo CLI.
 
 ```sh
-brew tap dairo-app/tap
-brew install dairo
+brew install dairo-app/tap/dairo
 ```
 
-This repository is updated by the `dairo-cli` release workflow from GitHub Release artifacts and checksums.
+After tapping once, `brew install dairo` also works while this tap provides the `dairo` formula.
+
+This repository is updated from `dairo-app/dairo-cli` GitHub Release artifacts and checksums.
